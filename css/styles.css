@@ -1,0 +1,361 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* Tags */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1, h2, h3{
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+p{
+  font-size: 1.1rem;
+}
+
+.grey-text{
+  color: #8f8f8f;
+}
+
+.subtitle{
+  font-size: 1.2rem;
+  max-width: 55%;
+  margin: 0 auto;
+}
+
+/* Title */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 14% 10%;
+  text-align: left;
+}
+
+.brand-logo{
+  width: 14%;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+}
+
+.nav-item{
+  margin: auto 18px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* Title-text */
+
+.title-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+/* Download Buttons */
+
+.down-btn{
+  margin: 10px;
+}
+
+.title-icon{
+  margin-right: 5px;
+}
+
+/* Title image */
+
+.iphone-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+#features .container-fluid{
+  padding: 10% 3%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+#features .row{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-box{
+  padding: 5% 0;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.feature-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.feature-title{
+  font-weight: 900;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.feature-text{
+  width: 80%;
+  margin: auto;
+}
+
+/* Testimonials */
+
+.carousel-inner{
+  padding: 5% 15% 2%;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 2.8rem;
+}
+
+.testimonial-image{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 7% 0;
+}
+
+.price-header{
+  padding: 0 7%;
+}
+
+.section-title{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.price-row{
+  max-width: 1000px;
+  margin: 100px auto 0;
+}
+
+.card{
+  width: 300px;
+  margin: 0 auto 50px;
+}
+
+.price-amount{
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.per-month{
+  color: #6c757d;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.signup-btn{
+  margin: 15px auto 5px;
+  font-weight: 500;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 6% 10% 4%;
+  color: #fff;
+}
+
+.cta-text{
+  max-width: 1000px;
+  font-weight: 800;
+  margin: 0 auto 30px;
+}
+
+/* Footer */
+
+#footer{
+  padding: 40px 15%;
+  background-color: #fff;
+}
+
+.footer-icon{
+  padding: 12px;
+}
+
+a{
+  color: black;
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width:1190px){
+  .iphone-img{
+    position:static;
+    transform: rotate(0);
+    width: 70%;
+  }
+
+  .testimonial-text{
+    font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (min-width:991px) and (max-width: 1190px) {
+  .iphone-div{
+    text-align: center;
+  }
+
+  #title{
+    padding: 3% 11% 10%;
+  }
+
+}
+
+@media only screen and (max-width:992px){
+  #title{
+    text-align: center;
+  }
+
+  .title-heading{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .iphone-img{
+    width: 45%;
+    margin-top: 30px;
+  }
+
+
+  .testimonial-text{
+    font-size: 2rem;
+  }
+
+  .testimonial-image{
+    width: 15%;
+  }
+
+  .section-title{
+    font-size: 2.25rem;
+  }
+
+  .price-row{
+    max-width: 700px;
+  }
+  .card{
+    width: 275px;
+  }
+
+  .breed-title{
+    font-size: 1.5rem;
+  }
+
+  .price-amount{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .price-feature{
+    font-size: 0.9rem;
+  }
+
+}
+
+@media only screen and (max-width:650px){
+  body{
+    font-size: 0.8rem;
+  }
+
+  #title{
+    padding: 3% 7% 10%;
+  }
+  .title-heading{
+    font-size: 2.5rem;
+  }
+  .title-div{
+    padding: 0;
+  }
+
+  .feature-title{
+    font-size: 1.3rem;
+  }
+
+  .testimonial-image{
+    width: 20%;
+  }
+
+  em{
+    font-size: 0.75rem;
+  }
+
+  .price-header{
+    padding: 0 2%;
+  }
+
+  .section-title{
+    font-size: 1.8rem;
+  }
+
+  .testimonial-text{
+    font-size: 1.5rem;
+  }
+
+  .subtitle{
+    font-size: 1rem;
+    max-width: 70%;
+  }
+
+  #cta{
+    padding: 6% 7% 4%;
+  }
+
+  .copyright{
+    font-size: 0.8rem;
+  }
+}
